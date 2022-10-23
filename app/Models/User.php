@@ -21,6 +21,14 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'bot_vendor',
+        'bot_vendor_id',
+        'bot_chat_id',
+        'account',
+        'company_code',
+        'location',
+        'time_to_work',
+        'eip_vendor'
     ];
 
     /**
